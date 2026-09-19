@@ -1,0 +1,20 @@
+{
+  "model": "i01o_m1",
+  "family": "industrial",
+  "config": "skill",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 103428 bytes, 340 nodes, 918 tets)",
+  "wall_seconds": 43.04,
+  "rounds": 9,
+  "tool_calls": 17,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 340,
+    "tet_count": 918,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

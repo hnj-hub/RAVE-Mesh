@@ -1,0 +1,20 @@
+{
+  "model": "i09o_m9",
+  "family": "industrial",
+  "config": "full",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 1640518 bytes, 4932 nodes, 15071 tets)",
+  "wall_seconds": 357.49,
+  "rounds": 11,
+  "tool_calls": 14,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 4932,
+    "tet_count": 15071,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

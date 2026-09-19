@@ -1,0 +1,383 @@
+{
+  "experiment_id": "a0-a0prime-etri-relative-validity-v2-20models-2026-09-07",
+  "execution_authorized": true,
+  "lock_reason": "Twenty-model A0/A0-prime benchmark using the frozen ETri relative parameter space and validity-v2 mesh checks.",
+  "trial_script": "src/mesh_optimization/archer_trial.py",
+  "output_dir": "20模型",
+  "policies": [
+    "random",
+    "random_seed",
+    "parego",
+    "parego_seed",
+    "qlogehvi_mixed",
+    "qlogehvi_mixed_seed"
+  ],
+  "parallel_workers": 8,
+  "models": [
+    {
+      "id": "i14o_s7",
+      "path": "tests/hex-me-if-you-can-main/original/i14o_s7.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i10o_simp",
+      "path": "tests/hex-me-if-you-can-main/original/i10o_simp.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i08o_m8",
+      "path": "tests/hex-me-if-you-can-main/original/i08o_m8.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i17o_s20",
+      "path": "tests/hex-me-if-you-can-main/original/i17o_s20.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "s12o_cube_rounded_1",
+      "path": "tests/hex-me-if-you-can-main/original/s12o_cube_rounded_1.stp",
+      "category": "hexme_basic"
+    },
+    {
+      "id": "i03o_m3",
+      "path": "tests/hex-me-if-you-can-main/original/i03o_m3.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i09o_m9",
+      "path": "tests/hex-me-if-you-can-main/original/i09o_m9.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i05o_m5",
+      "path": "tests/hex-me-if-you-can-main/original/i05o_m5.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i02o_m2",
+      "path": "tests/hex-me-if-you-can-main/original/i02o_m2.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "s09o_bridge",
+      "path": "tests/hex-me-if-you-can-main/original/s09o_bridge.step",
+      "category": "hexme_basic"
+    },
+    {
+      "id": "i06o_m6",
+      "path": "tests/hex-me-if-you-can-main/original/i06o_m6.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i07o_m7",
+      "path": "tests/hex-me-if-you-can-main/original/i07o_m7.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "s15o_cylinder",
+      "path": "tests/hex-me-if-you-can-main/original/s15o_cylinder.stp",
+      "category": "hexme_basic"
+    },
+    {
+      "id": "n11o_limit_cycle",
+      "path": "tests/hex-me-if-you-can-main/original/n11o_limit_cycle.stp",
+      "category": "hexme_topology"
+    },
+    {
+      "id": "s14o_cube_corner_sub_sphere",
+      "path": "tests/hex-me-if-you-can-main/original/s14o_cube_corner_sub_sphere.stp",
+      "category": "hexme_basic"
+    },
+    {
+      "id": "i01o_m1",
+      "path": "tests/hex-me-if-you-can-main/original/i01o_m1.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i11o_s1",
+      "path": "tests/hex-me-if-you-can-main/original/i11o_s1.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "i04o_m4",
+      "path": "tests/hex-me-if-you-can-main/original/i04o_m4.step",
+      "category": "hexme_industrial"
+    },
+    {
+      "id": "n12o_limit_cycle_genus0",
+      "path": "tests/hex-me-if-you-can-main/original/n12o_limit_cycle_genus0.stp",
+      "category": "hexme_topology"
+    },
+    {
+      "id": "s13o_cube_rounded_2",
+      "path": "tests/hex-me-if-you-can-main/original/s13o_cube_rounded_2.stp",
+      "category": "hexme_basic"
+    }
+  ],
+  "seeds": [
+    11,
+    12,
+    13
+  ],
+  "max_trials": 20,
+  "trial_timeout_seconds": 90,
+  "max_consecutive_timeouts": 6,
+  "max_propose_retries": 3,
+  "export_mesh_bdf": true,
+  "mesh_validation": {
+    "method": "bdf-grid-ctetra-v1",
+    "relative_volume_tolerance": 1e-12,
+    "require_closed_boundary": true
+  },
+  "parameter_space": {
+    "surface_size_ratio": [
+      0.02,
+      0.1
+    ],
+    "growth_ratio": [
+      1.05,
+      1.5
+    ],
+    "refinement_angle": [
+      15.0,
+      60.0
+    ],
+    "tet_size_ratio": [
+      1.0,
+      4.0
+    ],
+    "curvature": {
+      "type": "binary"
+    },
+    "fastaft": {
+      "type": "binary"
+    },
+    "conformal": {
+      "type": "binary"
+    }
+  },
+  "quality_limits": {
+    "aspect ratio": 0.0,
+    "vol skew": 0.0,
+    "tet collapse": 0.0
+  },
+  "objective": {
+    "mode": "multi_metric",
+    "metrics": [
+      "aspect ratio",
+      "vol skew",
+      "tet collapse"
+    ],
+    "failure_penalty": 1.0
+  },
+  "bayesian": {
+    "initial_random_trials": 4,
+    "candidate_count": 2048,
+    "exploration_xi": 0.01,
+    "parego_rho": 0.05,
+    "qlogehvi_mc_samples": 64,
+    "mixed_num_restarts": 4,
+    "mixed_raw_samples": 16,
+    "mixed_batch_limit": 8,
+    "mixed_maxiter": 80,
+    "mixed_retry_on_optimization_warning": false
+  },
+  "default_by_model": {
+    "i14o_s7": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i10o_simp": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i08o_m8": {
+      "surface_size_ratio": 0.02,
+      "tet_size_ratio": 1.0,
+      "growth_ratio": 1.05,
+      "refinement_angle": 15.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i17o_s20": {
+      "surface_size_ratio": 0.04,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "s12o_cube_rounded_1": {
+      "surface_size_ratio": 0.04,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i03o_m3": {
+      "surface_size_ratio": 0.035,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i09o_m9": {
+      "surface_size_ratio": 0.035,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 25.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i05o_m5": {
+      "surface_size_ratio": 0.035,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 25.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i02o_m2": {
+      "surface_size_ratio": 0.035,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "s09o_bridge": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i06o_m6": {
+      "surface_size_ratio": 0.04,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i07o_m7": {
+      "surface_size_ratio": 0.035,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 25.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "s15o_cylinder": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "n11o_limit_cycle": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "s14o_cube_corner_sub_sphere": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i01o_m1": {
+      "surface_size_ratio": 0.04,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i11o_s1": {
+      "surface_size_ratio": 0.04,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "i04o_m4": {
+      "surface_size_ratio": 0.035,
+      "tet_size_ratio": 2.5,
+      "growth_ratio": 1.2,
+      "refinement_angle": 25.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "n12o_limit_cycle_genus0": {
+      "surface_size_ratio": 0.05,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    },
+    "s13o_cube_rounded_2": {
+      "surface_size_ratio": 0.04,
+      "tet_size_ratio": 2.0,
+      "growth_ratio": 1.2,
+      "refinement_angle": 30.0,
+      "curvature": 1,
+      "fastaft": 0,
+      "conformal": 0
+    }
+  },
+  "parameterization": "etri-relative-v1",
+  "constant_parameters": {
+    "element_type": "ETri"
+  },
+  "parameter_definitions": {
+    "surface_size_ratio": "alpha=h_s/L; L=CAD AABB diagonal; [0.02,0.10]",
+    "tet_size_ratio": "k=h_t_max/h_s; [1,4]",
+    "growth_ratio": "surface mesh growth ratio; [1.05,1.50]",
+    "refinement_angle": "curvature span angle in degrees; [15,60]",
+    "fastaft": "forceAFT binary switch; name retained for compatibility"
+  },
+  "default_provenance": {
+    "method": "new-space-LLM-curvature-gap-cohort-comparison",
+    "audit_file": "config.a0_a0prime_etri_relative_20models.defaults-audit.json"
+  }
+}

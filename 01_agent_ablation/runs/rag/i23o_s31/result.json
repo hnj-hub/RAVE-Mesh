@@ -1,0 +1,22 @@
+{
+  "model": "i23o_s31",
+  "family": "industrial",
+  "config": "rag",
+  "runnable": false,
+  "failure_reason": "MESH_INVALID",
+  "detail": "mesh.bdf: 390 nodes, 1038 tets — violations: boundary_nonmanifold_edges=2",
+  "wall_seconds": 231.61,
+  "rounds": 11,
+  "tool_calls": 15,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 390,
+    "tet_count": 1038,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {
+      "boundary_nonmanifold_edges": 2
+    }
+  },
+  "final_text": ""
+}

@@ -1,0 +1,14 @@
+{
+  "model": "i25o_s40",
+  "family": "industrial",
+  "config": "budget",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 11.3,
+  "rounds": 2,
+  "tool_calls": 2,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": "明白，立即动手。先写脚本再运行验证"
+}

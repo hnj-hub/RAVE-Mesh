@@ -1,0 +1,20 @@
+{
+  "model": "i18o_s22",
+  "family": "industrial",
+  "config": "full",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 1710792 bytes, 4527 nodes, 16333 tets)",
+  "wall_seconds": 336.9,
+  "rounds": 11,
+  "tool_calls": 14,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 4527,
+    "tet_count": 16333,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

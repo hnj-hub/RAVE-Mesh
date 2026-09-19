@@ -1,0 +1,20 @@
+{
+  "model": "i04o_m4",
+  "family": "industrial",
+  "config": "rag",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 56934 bytes, 221 nodes, 470 tets)",
+  "wall_seconds": 138.97,
+  "rounds": 11,
+  "tool_calls": 14,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 221,
+    "tet_count": 470,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

@@ -1,0 +1,20 @@
+{
+  "model": "i29o_bracket",
+  "family": "industrial",
+  "config": "rag",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 1179663 bytes, 3239 nodes, 11144 tets)",
+  "wall_seconds": 343.36,
+  "rounds": 11,
+  "tool_calls": 15,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 3239,
+    "tet_count": 11144,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

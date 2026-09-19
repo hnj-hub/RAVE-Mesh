@@ -1,0 +1,20 @@
+{
+  "model": "i25o_s40",
+  "family": "industrial",
+  "config": "full",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 1688652 bytes, 4420 nodes, 16170 tets)",
+  "wall_seconds": 231.84,
+  "rounds": 11,
+  "tool_calls": 13,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 4420,
+    "tet_count": 16170,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": "The pipe is searching the whole drive. Let me read the BDF file header directly to validate."
+}

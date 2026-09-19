@@ -1,0 +1,20 @@
+{
+  "model": "i12o_s5",
+  "family": "industrial",
+  "config": "full",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 426885 bytes, 1349 nodes, 3854 tets)",
+  "wall_seconds": 312.02,
+  "rounds": 11,
+  "tool_calls": 12,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 1349,
+    "tet_count": 3854,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

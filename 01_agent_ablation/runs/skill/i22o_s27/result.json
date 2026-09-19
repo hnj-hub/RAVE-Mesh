@@ -1,0 +1,14 @@
+{
+  "model": "i22o_s27",
+  "family": "industrial",
+  "config": "skill",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 26.35,
+  "rounds": 11,
+  "tool_calls": 17,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": ""
+}

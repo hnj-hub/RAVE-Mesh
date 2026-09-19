@@ -1,0 +1,14 @@
+{
+  "model": "i15o_s8",
+  "family": "industrial",
+  "config": "budget",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 8.64,
+  "rounds": 2,
+  "tool_calls": 4,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": ""
+}

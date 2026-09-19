@@ -1,0 +1,6 @@
+
+[更新待办] TodoWrite
+  [>] 检查 STEP 模型文件是否存在 <- step1 [ ] 生成四面体剖分脚本并写入 [ ] 运行脚本执行剖分和 BDF 导出 [ ] 验证 BDF 文件含 GRID 和 CTETRA 且单元数 > 0 [ ] 报告结果 (0/5 
+Let me first read the model to understand what we're working with.
+
+

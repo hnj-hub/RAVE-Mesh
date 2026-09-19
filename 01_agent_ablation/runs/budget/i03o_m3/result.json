@@ -1,0 +1,14 @@
+{
+  "model": "i03o_m3",
+  "family": "industrial",
+  "config": "budget",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 5.93,
+  "rounds": 2,
+  "tool_calls": 2,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": "Let me first read the model to understand what we're working with."
+}

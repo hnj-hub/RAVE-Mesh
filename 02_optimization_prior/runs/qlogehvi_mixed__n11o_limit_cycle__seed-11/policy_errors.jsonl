@@ -1,0 +1,2 @@
+{"trial_index": 14, "status": "POLICY_ERROR", "error_type": "OptimizationGradientError", "failure_reason": "16 elements of the 16 element gradient array `gradf` are NaN. This often indicates numerical issues. Consider using `dtype=torch.double`."}
+{"trial_index": 15, "status": "POLICY_ERROR", "error_type": "OptimizationGradientError", "failure_reason": "16 elements of the 16 element gradient array `gradf` are NaN. This often indicates numerical issues. Consider using `dtype=torch.double`."}

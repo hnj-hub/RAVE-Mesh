@@ -1,0 +1,34 @@
+The experimental result data in this repository are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+This covers the run records, mesh diagnostics, metrics, analysis tables,
+configuration files, logs, generated meshing scripts, and figures under
+01_agent_ablation/, 02_optimization_prior/, and 03_paper_figures/, together
+with _excluded_bdf.json.
+
+You are free to:
+
+  Share -- copy and redistribute the material in any medium or format.
+  Adapt -- remix, transform, and build upon the material for any purpose,
+            even commercially.
+
+Under the following terms:
+
+  Attribution -- You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
+
+  No additional restrictions -- You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license
+  permits.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+---
+
+The Python analysis and harness code in this repository is licensed under the
+MIT License; see LICENSE.
+
+Note that the commercial ArcherSimNX executable used to produce these results
+is not distributed here and remains subject to its own license terms.

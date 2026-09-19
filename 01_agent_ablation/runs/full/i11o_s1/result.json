@@ -1,0 +1,20 @@
+{
+  "model": "i11o_s1",
+  "family": "industrial",
+  "config": "full",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 5197842 bytes, 12759 nodes, 50626 tets)",
+  "wall_seconds": 346.51,
+  "rounds": 11,
+  "tool_calls": 14,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 12759,
+    "tet_count": 50626,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

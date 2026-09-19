@@ -1,0 +1,4 @@
+
+[更新待办] TodoWrite
+  [>] 检查模型文件是否存在 <- step [ ] 编写剖分脚本(加载→剖分→导出BDF→验证) [ ] 运行脚本并验证结果 [ ] 确认BDF包含GRID和CTETRA且单元数>0 (0/4 completed)
+

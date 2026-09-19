@@ -1,0 +1,20 @@
+app.process({"action": "loadModel", "fileName": "D:/新建文件夹/my-agent/evals_p0_1_agent/models_40/i06o_m6.step", "module": "iomanager"})
+app.process({"action": "enter", "entityType": "parts", "module": "solidmesher"})
+app.process({"action": "whole", "entityType": 1, "module": "selectionmanager"})
+app.process({"action": "mesh", "module": "solidmesher", "meshSetting": {
+    "meshType": "tetmesh",
+    "surfaceMesh": {"elemType": "ETri", "meshSize": 8.0, "growthRatio": 1.5, "sizePriority": 1},
+    "tetraMesh": {"allTet": 1, "meshSizeMax": 16.0}}})
+app.process({"action": "leave", "entityType": "parts", "module": "solidmesher"})
+
+# 验证单元数
+n = app.get({"module": "modelmanager", "contentType": "elemNum"})["elemNum"]
+print("单元总数:", n)
+
+if n > 0:
+    from arcore.ar_io import ar_io
+    out_path = "D:/新建文件夹/my-agent/evals_p0_1_agent/subagent/i06o_m6/mesh.bdf"
+    ret = ar_io.mesh_bdf_output(out_path)
+    print("BDF 导出返回值:", ret)
+else:
+    print("FAIL: 网格未生成任何单元(可能薄板做体剖分无体积),不导出")

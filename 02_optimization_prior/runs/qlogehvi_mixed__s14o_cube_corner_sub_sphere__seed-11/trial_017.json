@@ -1,0 +1,105 @@
+{
+  "status": "COMPLETED",
+  "failure_reason": null,
+  "trial": "qlogehvi_mixed__s14o_cube_corner_sub_sphere__seed-11__trial-17",
+  "parameters": {
+    "surface_size_ratio": 0.02,
+    "growth_ratio": 1.2892189736730097,
+    "refinement_angle": 35.36152857305436,
+    "tet_size_ratio": 1.0,
+    "curvature": 0.0,
+    "fastaft": 1.0,
+    "conformal": 0.0
+  },
+  "total_elems": 236336,
+  "cae_elapsed_seconds": 13.378400400004466,
+  "metrics": {
+    "aspect ratio": {
+      "threshold": 4.0,
+      "bad_count": 278,
+      "bad_rate": 0.0011762913817615597
+    },
+    "vol skew": {
+      "threshold": 0.6,
+      "bad_count": 26195,
+      "bad_rate": 0.1108379595152664
+    },
+    "tet collapse": {
+      "threshold": 0.2,
+      "bad_count": 1504,
+      "bad_rate": 0.006363821000609302
+    }
+  },
+  "geometry_probe": {
+    "scope": "ENTITY_PRESENCE_ONLY_NOT_WATERTIGHTNESS",
+    "part_count": 1,
+    "shell_solid_candidate_count": 1
+  },
+  "mesh_bdf_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\20模型\\qlogehvi_mixed__s14o_cube_corner_sub_sphere__seed-11\\trial_017.bdf",
+  "mesh_export_error": null,
+  "wall_seconds": 15.432121300007566,
+  "mesh_validation": {
+    "mesh_valid": true,
+    "validation_method": "bdf-grid-ctetra-v1",
+    "node_count": 39119,
+    "tet_count": 236336,
+    "characteristic_length": 17.320508075688775,
+    "relative_volume_tolerance": 1e-12,
+    "min_abs_volume_relative": 2.064022522494575e-08,
+    "boundary_face_count": 6186,
+    "duplicate_tet_count": 0,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "nonmanifold_face_count": 0,
+    "boundary_nonmanifold_edge_count": 0,
+    "violations": {}
+  },
+  "parameter_resolution": {
+    "protocol": "etri-relative-v1",
+    "search_parameters": {
+      "surface_size_ratio": 0.02,
+      "growth_ratio": 1.2892189736730097,
+      "refinement_angle": 35.36152857305436,
+      "tet_size_ratio": 1.0,
+      "curvature": 0.0,
+      "fastaft": 1.0,
+      "conformal": 0.0
+    },
+    "resolved_parameters": {
+      "growth_ratio": 1.2892189736730097,
+      "refinement_angle": 35.36152857305436,
+      "curvature": 0.0,
+      "fastaft": 1.0,
+      "conformal": 0.0,
+      "surface_size": 0.34641016844197864,
+      "tet_size_max": 0.34641016844197864,
+      "element_type": "ETri"
+    },
+    "bounding_box": {
+      "min": [
+        -1.0000000097969317e-07,
+        -1.0000000073476381e-07,
+        -1e-07
+      ],
+      "max": [
+        10.0000001,
+        10.0000001,
+        10.0000001
+      ],
+      "diagonal": 17.320508422098932,
+      "source": "gmsh-openCASCADE-imported-CAD-AABB",
+      "gmsh_version": "4.15.2",
+      "model_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\tests\\hex-me-if-you-can-main\\original\\s14o_cube_corner_sub_sphere.stp"
+    }
+  },
+  "resolved_parameters": {
+    "growth_ratio": 1.2892189736730097,
+    "refinement_angle": 35.36152857305436,
+    "curvature": 0.0,
+    "fastaft": 1.0,
+    "conformal": 0.0,
+    "surface_size": 0.34641016844197864,
+    "tet_size_max": 0.34641016844197864,
+    "element_type": "ETri"
+  }
+}

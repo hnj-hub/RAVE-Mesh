@@ -1,0 +1,14 @@
+{
+  "model": "s15o_cylinder",
+  "family": "basic",
+  "config": "skill",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 34.34,
+  "rounds": 11,
+  "tool_calls": 17,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": ""
+}

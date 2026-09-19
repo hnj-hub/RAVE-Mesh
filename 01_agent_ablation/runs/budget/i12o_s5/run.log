@@ -1,0 +1,4 @@
+
+[更新待办] TodoWrite
+  [>] 检查 CAD 模型文件是否存在 <- step1 [ ] 编写四面体剖分脚本并运行 [ ] 验证 BDF 导出结果（GRID + CTETRA > 0） (0/3 completed)
+

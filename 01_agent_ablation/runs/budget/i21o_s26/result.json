@@ -1,0 +1,14 @@
+{
+  "model": "i21o_s26",
+  "family": "industrial",
+  "config": "budget",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 7.72,
+  "rounds": 2,
+  "tool_calls": 3,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": ""
+}

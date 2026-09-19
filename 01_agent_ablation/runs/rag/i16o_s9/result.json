@@ -1,0 +1,20 @@
+{
+  "model": "i16o_s9",
+  "family": "industrial",
+  "config": "rag",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 4522818 bytes, 11672 nodes, 43481 tets)",
+  "wall_seconds": 153.67,
+  "rounds": 11,
+  "tool_calls": 11,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 11672,
+    "tet_count": 43481,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": "GRID cards are present. Let me check for CTETRA elements."
+}

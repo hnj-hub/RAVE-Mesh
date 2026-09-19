@@ -1,0 +1,20 @@
+{
+  "model": "i02o_m2",
+  "family": "industrial",
+  "config": "full",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 32990 bytes, 141 nodes, 258 tets)",
+  "wall_seconds": 110.13,
+  "rounds": 11,
+  "tool_calls": 11,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 141,
+    "tet_count": 258,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

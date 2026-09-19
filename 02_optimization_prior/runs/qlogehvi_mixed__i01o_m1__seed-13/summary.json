@@ -1,0 +1,251 @@
+{
+  "run_id": "qlogehvi_mixed__i01o_m1__seed-13",
+  "completed_trials": 20,
+  "feasible_trials": 20,
+  "first_feasible_trial": 1,
+  "policy_error_count": 0,
+  "policy_errors": [],
+  "aborted_reason": null,
+  "best": null,
+  "total_wall_seconds": 108.76425280002877,
+  "pareto_front": [
+    {
+      "trial_index": 12,
+      "parameters": {
+        "surface_size_ratio": 0.03805672952330648,
+        "growth_ratio": 1.5,
+        "refinement_angle": 60.0,
+        "tet_size_ratio": 1.0,
+        "curvature": 1.0,
+        "fastaft": 1.0,
+        "conformal": 0.0
+      },
+      "objective": null,
+      "feasible": true,
+      "violations": {},
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "total_elems": 9142,
+      "wall_seconds": 4.407641800004058,
+      "metrics": {
+        "aspect ratio": {
+          "threshold": 4.0,
+          "bad_count": 0,
+          "bad_rate": 0.0
+        },
+        "vol skew": {
+          "threshold": 0.6,
+          "bad_count": 635,
+          "bad_rate": 0.06945963684095384
+        },
+        "tet collapse": {
+          "threshold": 0.2,
+          "bad_count": 3,
+          "bad_rate": 0.00032815576460293154
+        }
+      },
+      "mesh_validation": {
+        "mesh_valid": true,
+        "validation_method": "bdf-grid-ctetra-v1",
+        "node_count": 2033,
+        "tet_count": 9142,
+        "characteristic_length": 174.35595774162695,
+        "relative_volume_tolerance": 1e-12,
+        "min_abs_volume_relative": 1.1836491292847841e-06,
+        "boundary_face_count": 2202,
+        "duplicate_tet_count": 0,
+        "degenerate_tet_count": 0,
+        "inverted_tet_count": 0,
+        "nonmanifold_face_count": 0,
+        "boundary_nonmanifold_edge_count": 0,
+        "violations": {}
+      },
+      "parameter_resolution": {
+        "protocol": "etri-relative-v1",
+        "search_parameters": {
+          "surface_size_ratio": 0.03805672952330648,
+          "growth_ratio": 1.5,
+          "refinement_angle": 60.0,
+          "tet_size_ratio": 1.0,
+          "curvature": 1.0,
+          "fastaft": 1.0,
+          "conformal": 0.0
+        },
+        "resolved_parameters": {
+          "growth_ratio": 1.5,
+          "refinement_angle": 60.0,
+          "curvature": 1.0,
+          "fastaft": 1.0,
+          "conformal": 0.0,
+          "surface_size": 6.635417536773289,
+          "tet_size_max": 6.635417536773289,
+          "element_type": "ETri"
+        },
+        "bounding_box": {
+          "min": [
+            -60.0000001,
+            -60.0000001,
+            -1e-07
+          ],
+          "max": [
+            60.0000001,
+            60.0000001,
+            40.0000001
+          ],
+          "diagonal": 174.35595806280898,
+          "source": "gmsh-openCASCADE-imported-CAD-AABB",
+          "gmsh_version": "4.15.2",
+          "model_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\tests\\hex-me-if-you-can-main\\original\\i01o_m1.step"
+        }
+      },
+      "resolved_parameters": {
+        "growth_ratio": 1.5,
+        "refinement_angle": 60.0,
+        "curvature": 1.0,
+        "fastaft": 1.0,
+        "conformal": 0.0,
+        "surface_size": 6.635417536773289,
+        "tet_size_max": 6.635417536773289,
+        "element_type": "ETri"
+      },
+      "objectives": [
+        0.0,
+        0.06945963684095384,
+        0.00032815576460293154
+      ],
+      "llm_audit": {
+        "policy": "qlogehvi_mixed",
+        "round": 12,
+        "encoded_dimension": 7,
+        "discrete_combinations": 8,
+        "num_restarts": 4,
+        "raw_samples": 16,
+        "acquisition": "qLogExpectedHypervolumeImprovement",
+        "acquisition_score": -6.186747761014758,
+        "search": "native_mixed_enumeration",
+        "constraint_model": "disabled",
+        "prior_shift": "zero_or_disabled"
+      }
+    },
+    {
+      "trial_index": 17,
+      "parameters": {
+        "surface_size_ratio": 0.02,
+        "growth_ratio": 1.2924806719834943,
+        "refinement_angle": 60.0,
+        "tet_size_ratio": 1.0,
+        "curvature": 1.0,
+        "fastaft": 1.0,
+        "conformal": 1.0
+      },
+      "objective": null,
+      "feasible": true,
+      "violations": {},
+      "status": "COMPLETED",
+      "failure_reason": null,
+      "total_elems": 62054,
+      "wall_seconds": 7.233806300006108,
+      "metrics": {
+        "aspect ratio": {
+          "threshold": 4.0,
+          "bad_count": 0,
+          "bad_rate": 0.0
+        },
+        "vol skew": {
+          "threshold": 0.6,
+          "bad_count": 4436,
+          "bad_rate": 0.07148612498791375
+        },
+        "tet collapse": {
+          "threshold": 0.2,
+          "bad_count": 12,
+          "bad_rate": 0.00019337995939020853
+        }
+      },
+      "mesh_validation": {
+        "mesh_valid": true,
+        "validation_method": "bdf-grid-ctetra-v1",
+        "node_count": 11894,
+        "tet_count": 62054,
+        "characteristic_length": 174.35595774162695,
+        "relative_volume_tolerance": 1e-12,
+        "min_abs_volume_relative": 1.5218962736673132e-07,
+        "boundary_face_count": 8184,
+        "duplicate_tet_count": 0,
+        "degenerate_tet_count": 0,
+        "inverted_tet_count": 0,
+        "nonmanifold_face_count": 0,
+        "boundary_nonmanifold_edge_count": 0,
+        "violations": {}
+      },
+      "parameter_resolution": {
+        "protocol": "etri-relative-v1",
+        "search_parameters": {
+          "surface_size_ratio": 0.02,
+          "growth_ratio": 1.2924806719834943,
+          "refinement_angle": 60.0,
+          "tet_size_ratio": 1.0,
+          "curvature": 1.0,
+          "fastaft": 1.0,
+          "conformal": 1.0
+        },
+        "resolved_parameters": {
+          "growth_ratio": 1.2924806719834943,
+          "refinement_angle": 60.0,
+          "curvature": 1.0,
+          "fastaft": 1.0,
+          "conformal": 1.0,
+          "surface_size": 3.48711916125618,
+          "tet_size_max": 3.48711916125618,
+          "element_type": "ETri"
+        },
+        "bounding_box": {
+          "min": [
+            -60.0000001,
+            -60.0000001,
+            -1e-07
+          ],
+          "max": [
+            60.0000001,
+            60.0000001,
+            40.0000001
+          ],
+          "diagonal": 174.35595806280898,
+          "source": "gmsh-openCASCADE-imported-CAD-AABB",
+          "gmsh_version": "4.15.2",
+          "model_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\tests\\hex-me-if-you-can-main\\original\\i01o_m1.step"
+        }
+      },
+      "resolved_parameters": {
+        "growth_ratio": 1.2924806719834943,
+        "refinement_angle": 60.0,
+        "curvature": 1.0,
+        "fastaft": 1.0,
+        "conformal": 1.0,
+        "surface_size": 3.48711916125618,
+        "tet_size_max": 3.48711916125618,
+        "element_type": "ETri"
+      },
+      "objectives": [
+        0.0,
+        0.07148612498791375,
+        0.00019337995939020853
+      ],
+      "llm_audit": {
+        "policy": "qlogehvi_mixed",
+        "round": 17,
+        "encoded_dimension": 7,
+        "discrete_combinations": 8,
+        "num_restarts": 4,
+        "raw_samples": 16,
+        "acquisition": "qLogExpectedHypervolumeImprovement",
+        "acquisition_score": -5.20005959781478,
+        "search": "native_mixed_enumeration",
+        "constraint_model": "disabled",
+        "prior_shift": "zero_or_disabled"
+      }
+    }
+  ],
+  "pareto_size": 2,
+  "hypervolume_final": 0.9303601421798359
+}

@@ -1,0 +1,36 @@
+{
+  "experiment_id": "a0-a0prime-etri-relative-validity-v2-20models-2026-09-07",
+  "run_id": "random_seed__s14o_cube_corner_sub_sphere__seed-13",
+  "policy": "random_seed",
+  "model": {
+    "id": "s14o_cube_corner_sub_sphere",
+    "path": "tests/hex-me-if-you-can-main/original/s14o_cube_corner_sub_sphere.stp",
+    "category": "hexme_basic"
+  },
+  "seed": 13,
+  "started_at": "2026-09-07T10:28:55.964858+00:00",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "config_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\config.a0_a0prime_etri_relative_20models.json",
+  "config_sha256": "4452c837477931e24f7a4f0f43f68e6ecf3b0e02793081afec6760a9bd625e18",
+  "source_sha256": {
+    "run_benchmark.py": "b104bdf0ce752385a27217b262d982139bdbf29bd3cc60db8b34b8f5a4de889d",
+    "multi_objective.py": "d3abe9aedf03fe45c51d897a3256f83653c08d7c676be81fb4734296006d02e0",
+    "policies.py": "80f7c896e4166bd9e800b250e40c3a8c3ad2ad494779c0756950aaf171703947",
+    "objective.py": "a4d0d7de45456cb42d80df951e9a0e515da07f51442604002015daa44559b06c",
+    "archer_runner.py": "89bc78ed51ca129ad61a326de604043fd96303dde25bd33a090e07f8c66da488",
+    "archer_trial.py": "6db616eed6cc4e06880c3b4ab695be97faee37d6b63f655e2b3e34c8f85f080a",
+    "mesh_validation.py": "aa8786db2a53f0b89e9283e9a8bece0fda7f39c89082f29c58ca63d668bbd67f",
+    "relative_parameters.py": "07de64d278c1c8c936012d8b5b1f3942cdedd8cc0966cea0db045bd927a859a3"
+  },
+  "effective_objective": {
+    "mode": "multi_metric",
+    "metrics": [
+      "aspect ratio",
+      "vol skew",
+      "tet collapse"
+    ],
+    "failure_penalty": 1.0
+  },
+  "bo_round_seed_rule": null
+}

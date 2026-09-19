@@ -1,0 +1,73 @@
+{
+  "status": "MESH_FAILURE_WITH_CANDIDATE",
+  "failure_reason": "Archer element count was 0 despite 1 shell/solid candidate(s)",
+  "trial": "parego__i09o_m9__seed-12__trial-5",
+  "parameters": {
+    "surface_size_ratio": 0.055740740302713865,
+    "growth_ratio": 1.2342820784774533,
+    "refinement_angle": 44.596762187742186,
+    "tet_size_ratio": 1.7765661456702349,
+    "curvature": 0.0,
+    "fastaft": 1.0,
+    "conformal": 1.0
+  },
+  "total_elems": 0,
+  "cae_elapsed_seconds": 0.46567860001232475,
+  "metrics": {},
+  "geometry_probe": {
+    "scope": "ENTITY_PRESENCE_ONLY_NOT_WATERTIGHTNESS",
+    "part_count": 1,
+    "shell_solid_candidate_count": 1
+  },
+  "mesh_bdf_path": null,
+  "mesh_export_error": null,
+  "wall_seconds": 2.135013399994932,
+  "parameter_resolution": {
+    "protocol": "etri-relative-v1",
+    "search_parameters": {
+      "surface_size_ratio": 0.055740740302713865,
+      "growth_ratio": 1.2342820784774533,
+      "refinement_angle": 44.596762187742186,
+      "tet_size_ratio": 1.7765661456702349,
+      "curvature": 0.0,
+      "fastaft": 1.0,
+      "conformal": 1.0
+    },
+    "resolved_parameters": {
+      "growth_ratio": 1.2342820784774533,
+      "refinement_angle": 44.596762187742186,
+      "curvature": 0.0,
+      "fastaft": 1.0,
+      "conformal": 1.0,
+      "surface_size": 12.498533289618605,
+      "tet_size_max": 22.204471112868845,
+      "element_type": "ETri"
+    },
+    "bounding_box": {
+      "min": [
+        -30.67571742059451,
+        -105.00072246430805,
+        -0.0007224643080603444
+      ],
+      "max": [
+        30.67571742059451,
+        47.50072246430806,
+        152.50072246430807
+      ],
+      "diagonal": 224.22618037977665,
+      "source": "gmsh-openCASCADE-imported-CAD-AABB",
+      "gmsh_version": "4.15.2",
+      "model_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\tests\\hex-me-if-you-can-main\\original\\i09o_m9.step"
+    }
+  },
+  "resolved_parameters": {
+    "growth_ratio": 1.2342820784774533,
+    "refinement_angle": 44.596762187742186,
+    "curvature": 0.0,
+    "fastaft": 1.0,
+    "conformal": 1.0,
+    "surface_size": 12.498533289618605,
+    "tet_size_max": 22.204471112868845,
+    "element_type": "ETri"
+  }
+}

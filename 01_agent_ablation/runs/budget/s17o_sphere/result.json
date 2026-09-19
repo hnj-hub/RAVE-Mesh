@@ -1,0 +1,14 @@
+{
+  "model": "s17o_sphere",
+  "family": "basic",
+  "config": "budget",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 5.59,
+  "rounds": 2,
+  "tool_calls": 2,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": ""
+}

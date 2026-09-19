@@ -1,0 +1,20 @@
+{
+  "model": "i31o_dlr_f6",
+  "family": "industrial",
+  "config": "subagent",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 364128145 bytes, 627172 nodes, 3813411 tets)",
+  "wall_seconds": 414.55,
+  "rounds": 11,
+  "tool_calls": 15,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 627172,
+    "tet_count": 3813411,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}

@@ -1,0 +1,14 @@
+{
+  "model": "s17o_sphere",
+  "family": "basic",
+  "config": "skill",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 36.58,
+  "rounds": 13,
+  "tool_calls": 17,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": "脚本已就绪，现在执行网格剖分脚本"
+}

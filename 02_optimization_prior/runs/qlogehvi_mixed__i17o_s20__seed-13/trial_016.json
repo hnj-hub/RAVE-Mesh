@@ -1,0 +1,105 @@
+{
+  "status": "COMPLETED",
+  "failure_reason": null,
+  "trial": "qlogehvi_mixed__i17o_s20__seed-13__trial-16",
+  "parameters": {
+    "surface_size_ratio": 0.03960642579660871,
+    "growth_ratio": 1.095887943553431,
+    "refinement_angle": 51.043899891468484,
+    "tet_size_ratio": 3.147559826555368,
+    "curvature": 0.0,
+    "fastaft": 1.0,
+    "conformal": 1.0
+  },
+  "total_elems": 4124,
+  "cae_elapsed_seconds": 2.0861389999918174,
+  "metrics": {
+    "aspect ratio": {
+      "threshold": 4.0,
+      "bad_count": 0,
+      "bad_rate": 0.0
+    },
+    "vol skew": {
+      "threshold": 0.6,
+      "bad_count": 485,
+      "bad_rate": 0.11760426770126091
+    },
+    "tet collapse": {
+      "threshold": 0.2,
+      "bad_count": 2,
+      "bad_rate": 0.00048496605237633366
+    }
+  },
+  "geometry_probe": {
+    "scope": "ENTITY_PRESENCE_ONLY_NOT_WATERTIGHTNESS",
+    "part_count": 1,
+    "shell_solid_candidate_count": 1
+  },
+  "mesh_bdf_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\20模型\\qlogehvi_mixed__i17o_s20__seed-13\\trial_016.bdf",
+  "mesh_export_error": null,
+  "wall_seconds": 3.958072599998559,
+  "mesh_validation": {
+    "mesh_valid": true,
+    "validation_method": "bdf-grid-ctetra-v1",
+    "node_count": 1245,
+    "tet_count": 4124,
+    "characteristic_length": 4.69041575982343,
+    "relative_volume_tolerance": 1e-12,
+    "min_abs_volume_relative": 9.164787620834792e-07,
+    "boundary_face_count": 2180,
+    "duplicate_tet_count": 0,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "nonmanifold_face_count": 0,
+    "boundary_nonmanifold_edge_count": 0,
+    "violations": {}
+  },
+  "parameter_resolution": {
+    "protocol": "etri-relative-v1",
+    "search_parameters": {
+      "surface_size_ratio": 0.03960642579660871,
+      "growth_ratio": 1.095887943553431,
+      "refinement_angle": 51.043899891468484,
+      "tet_size_ratio": 3.147559826555368,
+      "curvature": 0.0,
+      "fastaft": 1.0,
+      "conformal": 1.0
+    },
+    "resolved_parameters": {
+      "growth_ratio": 1.095887943553431,
+      "refinement_angle": 51.043899891468484,
+      "curvature": 0.0,
+      "fastaft": 1.0,
+      "conformal": 1.0,
+      "surface_size": 0.18577062658954174,
+      "tet_size_max": 0.58472416120726,
+      "element_type": "ETri"
+    },
+    "bounding_box": {
+      "min": [
+        13.480864918641,
+        17.562698597697,
+        21.349999899999997
+      ],
+      "max": [
+        16.480865487033924,
+        20.562698797697003,
+        23.350000100000052
+      ],
+      "diagonal": 4.690416336569514,
+      "source": "gmsh-openCASCADE-imported-CAD-AABB",
+      "gmsh_version": "4.15.2",
+      "model_path": "D:\\新建文件夹\\论文\\LLM闭环网格优化方法包\\tests\\hex-me-if-you-can-main\\original\\i17o_s20.step"
+    }
+  },
+  "resolved_parameters": {
+    "growth_ratio": 1.095887943553431,
+    "refinement_angle": 51.043899891468484,
+    "curvature": 0.0,
+    "fastaft": 1.0,
+    "conformal": 1.0,
+    "surface_size": 0.18577062658954174,
+    "tet_size_max": 0.58472416120726,
+    "element_type": "ETri"
+  }
+}

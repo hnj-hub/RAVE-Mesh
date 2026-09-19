@@ -1,0 +1,14 @@
+{
+  "model": "i29o_bracket",
+  "family": "industrial",
+  "config": "skill",
+  "runnable": false,
+  "failure_reason": "no_bdf",
+  "detail": "未生成任何 .bdf",
+  "wall_seconds": 54.55,
+  "rounds": 10,
+  "tool_calls": 18,
+  "first_attempt": false,
+  "mesh_diagnostics": null,
+  "final_text": ""
+}

@@ -1,0 +1,4 @@
+
+[更新待办] TodoWrite
+  [>] 编写 ArcherPre 四面体剖分脚本 <- script [ ] 运行脚本生成网格 [ ] 验证 BDF 文件（GRID + CTETRA 单元数 > 0） (0/3 completed)
+明白，立即动手。先写脚本再运行验证

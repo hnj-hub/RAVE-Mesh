@@ -1,0 +1,4 @@
+
+[更新待办] TodoWrite
+  [>] 检查 STEP 文件是否存在 <- check_file [ ] 编写四面体剖分脚本并写入文件 [ ] 运行脚本剖分并导出 BDF [ ] 验证 BDF 文件有效性(GRID+CTETRA > 0) (0/4 completed)
+

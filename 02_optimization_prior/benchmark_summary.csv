@@ -1,0 +1,4 @@
+run_id,completed_trials,feasible_trials,first_feasible_trial,best_objective,best_total_elems,pareto_size,hypervolume_final,total_wall_seconds
+parego__i07o_m7__seed-11,20,17,2,,,1,0.9109845883294344,82.12896679998084
+parego__i07o_m7__seed-12,20,17,1,,,1,0.9109845883294344,110.37158590000763
+parego__i07o_m7__seed-13,20,19,1,,,1,0.9194040522745911,105.08377309999196

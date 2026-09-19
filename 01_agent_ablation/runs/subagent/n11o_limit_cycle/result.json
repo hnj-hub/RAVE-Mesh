@@ -1,0 +1,20 @@
+{
+  "model": "n11o_limit_cycle",
+  "family": "topology",
+  "config": "subagent",
+  "runnable": true,
+  "failure_reason": null,
+  "detail": "OK(mesh.bdf, 51171 bytes, 181 nodes, 440 tets)",
+  "wall_seconds": 221.4,
+  "rounds": 11,
+  "tool_calls": 16,
+  "first_attempt": false,
+  "mesh_diagnostics": {
+    "node_count": 181,
+    "tet_count": 440,
+    "degenerate_tet_count": 0,
+    "inverted_tet_count": 0,
+    "violations": {}
+  },
+  "final_text": ""
+}
